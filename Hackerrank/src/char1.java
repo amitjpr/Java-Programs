@@ -1,16 +1,24 @@
 
-import java.util.*;
+//import java.util.*;
 
 public class  char1{
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-    Scanner sc=new Scanner(System.in);
+  /*  Scanner sc=new Scanner(System.in);
     String str=sc.nextLine();
-    String s=str.substring(0,2);
-    int a=Integer.parseInt(s);
-    int b=a+12;
-    System.out.print(b);
-    sc.close();
+    char ch[]=str.toCharArray();
+    for(int i=0 ;i< str.length();i++)
+    {
+    	if(ch[i]!='0')
+    	{
+    		System.out.println(ch[i]);
+    	}
+    }
+    System.out.println(4+.25);*/
+    int a=3 ;
+    double b=1004 ;
+    System.out.println((b)/a);
+    //sc.close();
     }
 }

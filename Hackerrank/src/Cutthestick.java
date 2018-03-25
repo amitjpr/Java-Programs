@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Cutthestick {
@@ -10,16 +11,19 @@ public class Cutthestick {
 		for (int i =0 ; i<n ; i++)
 		   arr[i]=sc.nextInt();
 		
-		int min=arr[0] ;
-		for (int i = 1 ; i< n ; i++)
-		{ 
-			if(arr[i]>= min)
-				min= arr[i];
-			
-		 	
-			
-		}
-		
+		Arrays.sort(arr);
+        int min = arr[0];
+        for(int i =0; i<n;)
+        {
+            System.out.println(n-i);
+            i++ ;
+            while (arr[i]==min)
+            {
+            	i++ ;
+            }
+            min= arr[i] ;            
+        }
+        
         sc.close();
 	}
 
